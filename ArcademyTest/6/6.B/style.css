@@ -33,3 +33,7 @@ nav .form-control{
 .thed-table{
     background-color: darkorange;
 }
+
+.label-delete-user{
+    text-align: center;    
+}

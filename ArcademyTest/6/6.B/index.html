@@ -58,7 +58,9 @@
                             <a data-toggle="modal" data-target="#modalEdit" style="cursor: pointer;">
                                 <i class="far fa-edit" style="color: seagreen;"></i>
                             </a>
-                            <i class="fas fa-trash-alt" style="color: #e60000;"></i>                            
+                            <a data-toggle="modal" data-target="#modalDelete" style="cursor: pointer;">
+                                <i class="fas fa-trash-alt" style="color: #e60000;"></i>                            
+                            </a>
                         </td>
                     </tr>
                     <tr>
@@ -71,7 +73,9 @@
                             <a data-toggle="modal" data-target="#modalEdit" style="cursor: pointer;">
                                 <i class="far fa-edit" style="color: seagreen;"></i>
                             </a>
-                            <i class="fas fa-trash-alt" style="color: #e60000;"></i>                            
+                            <a data-toggle="modal" data-target="#modalDelete" style="cursor: pointer;">
+                                <i class="fas fa-trash-alt" style="color: #e60000;"></i>                            
+                            </a>
                         </td>
                     </tr>
                     <tr>
@@ -84,7 +88,9 @@
                             <a data-toggle="modal" data-target="#modalEdit" style="cursor: pointer;">
                                 <i class="far fa-edit" style="color: seagreen;"></i>
                             </a>
-                            <i class="fas fa-trash-alt" style="color: #e60000;"></i>                            
+                            <a data-toggle="modal" data-target="#modalDelete" style="cursor: pointer;">
+                                <i class="fas fa-trash-alt" style="color: #e60000;"></i>                            
+                            </a>                       
                         </td>
                     </tr>
                 </tbody>
@@ -95,8 +101,8 @@
                 <div class="modal-content"> 
                     <div class="modal-header">
                         <h5 class="modal-title">Add</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: coral;">
+                            <span aria-hidden="true">&times;</span>
                         </button>
                     </div>                   
                     <div class="modal-body">                        
@@ -136,8 +142,8 @@
                 <div class="modal-content"> 
                     <div class="modal-header">
                         <h5 class="modal-title">Edit</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: coral;">
+                            <span aria-hidden="true">&times;</span>
                         </button>
                     </div>                   
                     <div class="modal-body">                        
@@ -169,6 +175,20 @@
                     <div class="modal-footer">
                         <button class="btn btn-outline-success my-2 my-sm-0" style="background-color: coral; border: coral; color: white;" type="submit">Add</button>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">                     
+                    <div class="modal-body">   
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: coral;">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <label class="label-delete-user" for="Delete" style="margin-left: 40%;"><b>Data User <span style="color: orange;">#1</span></b></label><br>                     
+                        <i class="far fa-check-circle fa-7x" style="margin-left: 38%; color: rgb(16, 173, 16); margin: 20px 50px 10px 38%;"></i>
+                        <label class="label-delete-user" for="Delete" style="margin-left: 36%;"><b>Berhasil Dihapus</b></label>
+                    </div>                    
                 </div>
             </div>
         </div>
