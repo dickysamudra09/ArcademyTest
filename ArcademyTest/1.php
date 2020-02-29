@@ -6,7 +6,7 @@
         $hobbies = array('Main Game','Sepak Bola','Nonton Film');
         $is_married = FALSE;
         $list_school = array('year_in' => 2017, 'year_out' => 2020);
-        $skill = array('skill_name' => array('Python' => array('level' => 'Advanced'),
+        $skill = array('skill_name' => array('Python' => array('level' => 'Beginner/Advanced'),
                                              'Java' => array('level' => 'Beginner'),
                                              'Php' => array('level' => 'Advanced')));
         $interest_in_coding = TRUE;                                       
