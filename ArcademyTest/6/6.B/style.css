@@ -19,6 +19,7 @@ thead th{
 
 .table thead{
     border-radius: 20px;    
+    color: white;
 }
 
 .btn .btn-outline-success{
@@ -26,7 +27,7 @@ thead th{
 }
 
 nav .form-control{
-    background-color: darkgray;
+    background-color: rgb(204, 204, 204);
 }
 
 .thed-table{
