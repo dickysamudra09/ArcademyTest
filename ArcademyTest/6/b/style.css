@@ -1,0 +1,34 @@
+.navbar{
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.4);
+    padding: 10px;
+}
+
+thead{
+    border-radius: 20px 20px 20px 20px;
+}
+
+thead th{
+    color: white;
+}
+
+.table{
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.4);
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.table thead{
+    border-radius: 20px;    
+}
+
+.btn .btn-outline-success{
+    color: coral;
+}
+
+nav .form-control{
+    background-color: darkgray;
+}
+
+.thed-table{
+    background-color: darkorange;
+}
